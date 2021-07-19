@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import styled from 'styled-components'
+
+const Wrapper = styled.section`
+  padding: 4em;
+  background: papayawhip;
+
+  h1 {
+    color: red;
+    font-size: 1.5em;
+    text-align: center;
+  }
+`;
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    return (
+        <Wrapper>
+            <h1>
+                Hello World!
+            </h1>
+        </Wrapper>
+    );
 }
 
 export default App;
+
