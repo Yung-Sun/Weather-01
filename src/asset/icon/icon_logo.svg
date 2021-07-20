@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 640 640">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: #abd8ff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        opacity: 0.5;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #ff802c;
+      }
+
+      .cls-4 {
+        opacity: 0.6;
+      }
+    </style>
+  </defs>
+  <g id="画板_1" data-name="画板 1">
+    <g id="LOGO">
+      <circle id="椭圆_1" data-name="椭圆 1" class="cls-1" cx="504.61" cy="393.765" r="130.86"/>
+      <path id="椭圆_1-2" data-name="椭圆 1" class="cls-2" d="M114.9,302.911A110.854,110.854,0,1,1,4.045,413.765,110.854,110.854,0,0,1,114.9,302.911Z"/>
+      <path id="椭圆_2" data-name="椭圆 2" class="cls-3" d="M193.468,114.631A125.425,125.425,0,1,1,68.043,240.056,125.425,125.425,0,0,1,193.468,114.631Z"/>
+      <path id="云层" class="cls-4" d="M318.893,186.343A169.138,169.138,0,1,1,149.755,355.481,169.138,169.138,0,0,1,318.893,186.343Z"/>
+    </g>
+  </g>
+</svg>
